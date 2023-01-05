@@ -8,7 +8,6 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.15.14
 	github.com/aws/aws-sdk-go-v2/service/cloudfront v1.20.7
 	github.com/aws/aws-sdk-go-v2/service/cloudwatch v1.23.1
-	github.com/aws/aws-sdk-go-v2/service/costexplorer v1.24.1
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.17.3
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.50.0
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.17.20
@@ -18,8 +17,8 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/iam v1.18.9
 	github.com/aws/aws-sdk-go-v2/service/kms v1.18.18
 	github.com/aws/aws-sdk-go-v2/service/lambda v1.23.4
+	github.com/aws/aws-sdk-go-v2/service/pricing v1.17.5
 	github.com/aws/aws-sdk-go-v2/service/rds v1.30.1
-	github.com/aws/aws-sdk-go-v2/service/route53 v1.25.2
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.27.1
 	github.com/aws/aws-sdk-go-v2/service/sns v1.18.3
 	github.com/aws/aws-sdk-go-v2/service/sqs v1.19.12
@@ -56,7 +55,6 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/internal/endpoint-discovery v1.7.19 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.9.19 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.13.8 // indirect
-	github.com/aws/aws-sdk-go-v2/service/pricing v1.17.5 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.11.12 // indirect
 	github.com/aws/smithy-go v1.13.5 // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
@@ -87,7 +85,7 @@ require (
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	lukechampine.com/uint128 v1.2.0 // indirect
-	mellium.im/sasl v0.3.0 // indirect
+	mellium.im/sasl v0.3.1 // indirect
 	modernc.org/cc/v3 v3.36.3 // indirect
 	modernc.org/ccgo/v3 v3.16.9 // indirect
 	modernc.org/libc v1.17.1 // indirect
